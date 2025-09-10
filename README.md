@@ -87,19 +87,19 @@ from crewai import Crew, Process
 from agents import dev_team # Assuming you define agents in agents.py
 from tasks import dev_tasks # Assuming you define tasks in tasks.py
 
-# --- Define Your Project Requirements ---
-# This is where you describe what you want the crew to build.
+ Define Your Project Requirements 
+This is where you describe what you want the crew to build.
 inputs = {
     "requirements": "Create a simple calculator class that can add, subtract, multiply, and divide two numbers.",
     "module_name": "calculator.py",
     "class_name": "Calculator"
 }
 
-# --- Instantiate Agents and Tasks ---
+Instantiate Agents and Tasks
 agents = dev_team()
 tasks = dev_tasks()
 
-# --- Create and Run the Crew ---
+ Create and Run the Crew 
 # Instantiate your crew with a sequential process
 project_crew = Crew(
     agents=[agents.engineering_lead, agents.backend_engineer, agents.frontend_engineer, agents.test_engineer],
