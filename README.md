@@ -1,5 +1,5 @@
 # Agent-Powered Software Development Team
-This project uses the crewAI framework to simulate a complete, autonomous software development team. Given a set of high-level requirements, this multi-agent system will design, implement, test, and create a user interface for a fully functional Python module.
+This project uses the CrewAI framework to simulate a complete, autonomous software development team. Given a set of high-level requirements, this multi-agent system will design, implement, test, and create a user interface for a fully functional Python module.
 
 The system is designed to streamline the development process from concept to a demonstrable prototype with minimal human intervention.
 
