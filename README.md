@@ -98,7 +98,7 @@ OPENAI_API_KEY="your-api-key-here"
    agents = dev_team()
    tasks = dev_tasks()
    
-   **Create and Run the Crew** 
+   Create and Run the Crew
    Instantiate your crew with a sequential process
    project_crew = Crew(
        agents=[agents.engineering_lead, agents.backend_engineer, agents.frontend_engineer, agents.test_engineer],
@@ -107,14 +107,14 @@ OPENAI_API_KEY="your-api-key-here"
        verbose=2,
    )
 
-**Kick off the crew's work**
- result = project_crew.kickoff(inputs=inputs)
-
- print("\n\n########################")
- print("## Crew Work Complete!")
- print("########################\n")
- print("Final result:")
- print(result)
+   Kick off the crew's work
+    result = project_crew.kickoff(inputs=inputs)
+   
+    print("\n\n########################")
+    print("## Crew Work Complete!")
+    print("########################\n")
+    print("Final result:")
+    print(result)
 
 
 5. Review the Output
