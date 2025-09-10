@@ -60,8 +60,8 @@ Language: Python
 
 🏁 **Getting Started**
 **Prerequisites**
-Python 3.10+
-An OpenAI API Key (or an API key for your preferred LLM provider).
+   * Python 3.10+
+   * An OpenAI API Key (or an API key for your preferred LLM provider).
 
 1. Clone the Repository
    git clone [https://github.com/your-username/agent-powered-development.git](https://github.com/your-username/agent-powered-development.git)
