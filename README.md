@@ -3,7 +3,7 @@ This project uses the crewAI framework to simulate a complete, autonomous softwa
 
 The system is designed to streamline the development process from concept to a demonstrable prototype with minimal human intervention.
 
-🚀 How It Works
+🚀 **How It Works**
 The project orchestrates a team of four specialized AI agents, each with a distinct role in the software development lifecycle. The process is kicked off by providing a set of requirements, a desired module name, and a class name.
 
 The workflow proceeds as follows:
@@ -18,38 +18,38 @@ Testing: The Test Engineer agent writes comprehensive unit tests for the backend
 
 The final output is a directory containing the design document, the backend module, the Gradio UI, and the unit tests—a complete and runnable application package.
 
-🤖 The AI Team
+🤖 **The AI Team**
 Our autonomous team consists of four expert agents:
 
-1. Engineering Lead
+1. **Engineering Lead**
 Role: Directs the engineering team's work.
 
 Goal: Translate high-level requirements into a detailed, actionable design for the backend developer. The design specifies a single, self-contained Python module.
 
 Backstory: A seasoned engineering lead with a knack for writing clear and concise technical designs.
 
-2. Backend Engineer
+2. **Backend Engineer**
 Role: A Python Engineer who can write code based on a technical design.
 
 Goal: Write a Python module that perfectly implements the design provided by the Engineering Lead. The final module must be self-contained and ready for testing or UI integration.
 
 Backstory: A seasoned Python engineer who writes clean, efficient code and follows design instructions carefully.
 
-3. Frontend Engineer
+3. **Frontend Engineer**
 Role: A Gradio expert who can create simple frontends to demonstrate a backend.
 
 Goal: Write a Gradio UI (app.py) that demonstrates the backend module. The UI should be simple and functional for a single user.
 
 Backstory: A highly skilled Python engineer specializing in building quick and effective Gradio UIs for backend classes.
 
-4. Test Engineer
+4. **Test Engineer**
 Role: A Python developer who can write effective unit tests.
 
 Goal: Write a full suite of unit tests for the backend module, ensuring code quality and functionality.
 
 Backstory: A seasoned QA engineer and software developer who writes excellent, thorough unit tests for Python code.
 
-🛠️ Tech Stack
+🛠️ **Tech Stack**
 Framework: crewAI for creating and managing the agentic team.
 
 LLM: OpenAI GPT-4o (or any other compatible model).
@@ -58,8 +58,8 @@ UI: Gradio for rapid web UI development.
 
 Language: Python
 
-🏁 Getting Started
-Prerequisites
+🏁 **Getting Started**
+**Prerequisites**
 Python 3.10+
 
 An OpenAI API Key (or an API key for your preferred LLM provider).
@@ -121,3 +121,8 @@ print(result)
 5. Review the Output
 After the crew finishes its work, you will find the generated files in the output/ directory:
 
+output/
+├── calculator.py_design.md
+├── calculator.py
+├── app.py
+└── test_calculator.py
