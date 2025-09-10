@@ -99,8 +99,8 @@ Instantiate Agents and Tasks
 agents = dev_team()
 tasks = dev_tasks()
 
- Create and Run the Crew 
-# Instantiate your crew with a sequential process
+**Create and Run the Crew** 
+Instantiate your crew with a sequential process
 project_crew = Crew(
     agents=[agents.engineering_lead, agents.backend_engineer, agents.frontend_engineer, agents.test_engineer],
     tasks=[tasks.design_task, tasks.code_task, tasks.frontend_task, tasks.test_task],
@@ -108,7 +108,7 @@ project_crew = Crew(
     verbose=2,
 )
 
-# Kick off the crew's work
+**Kick off the crew's work**
 result = project_crew.kickoff(inputs=inputs)
 
 print("\n\n########################")
